@@ -4,6 +4,10 @@ import java.net.URL;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Scanner;
+import ohtuesimerkki.Reader;
+import ohtuesimerkki.Statistics;
+import ohtuesimerkki.PlayerReader;
+import ohtuesimerkki.Player;
 
 public class PlayerReader implements Reader{
 
