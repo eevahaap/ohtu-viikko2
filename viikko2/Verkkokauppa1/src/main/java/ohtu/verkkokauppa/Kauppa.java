@@ -8,10 +8,10 @@ public class Kauppa {
     private Viitegeneraattori viitegeneraattori;
     private String kaupanTili;
 
-    public Kauppa() {
-        varasto = Varasto.getInstance();
-        pankki = Pankki.getInstance();
-        viitegeneraattori = Viitegeneraattori.getInstance();
+    public Kauppa(varastoInterface v, pankkiInterface p, viitegeneraattoriInterface vg) {
+        varasto = (Varasto) v;
+        pankki = (Pankki) p;
+        viitegeneraattori = (Viitegeneraattori) vg;
         kaupanTili = "33333-44455";
     }
 
